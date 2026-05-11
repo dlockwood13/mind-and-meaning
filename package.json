@@ -1,13 +1,12 @@
 {
   "name": "mind-and-meaning",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
@@ -17,14 +16,9 @@
     "lucide-react": "latest",
     "framer-motion": "latest"
   },
-"devDependencies": {
-  "tailwindcss": "3.4.17",
-  "postcss": "8.4.49",
-  "autoprefixer": "10.4.20"
-}
-    "eslint": "latest",
-    "eslint-plugin-react": "latest",
-    "eslint-plugin-react-hooks": "latest",
-    "eslint-plugin-react-refresh": "latest"
+  "devDependencies": {
+    "tailwindcss": "3.4.17",
+    "postcss": "8.4.49",
+    "autoprefixer": "10.4.20"
   }
 }
